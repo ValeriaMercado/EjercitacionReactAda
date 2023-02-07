@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 
 const Episodios = () => {
   const [mostrar, setMostrar] = useState(true);
-
   const [episodios, setEpisodios] = useState([]);
 
   useEffect(() => {
